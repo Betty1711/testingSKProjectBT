@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="6.386" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="6.275" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire17781576584744705047\surefirebooter-20241030151438794_3.jar C:\Users\DELL\AppData\Local\Temp\surefire17781576584744705047 2024-10-30T15-14-38_571-jvmRun1 surefire-20241030151438794_1tmp surefire_0-20241030151438794_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire12290453738940755573\surefirebooter-20241030184809013_3.jar C:\Users\DELL\AppData\Local\Temp\surefire12290453738940755573 2024-10-30T18-48-08_783-jvmRun1 surefire-20241030184809013_1tmp surefire_0-20241030184809013_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\BT_workspace\testingSKProjectBT\target\test-classes;C:\BT_workspace\testingSKProjectBT\target\classes;C:\Users\DELL\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\DELL\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\DELL\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\DELL\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\DELL\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\DELL\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\DELL\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\DELL\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\DELL\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\DELL\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\DELL\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\DELL\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\DELL\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\DELL\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\DELL\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\DELL\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\DELL\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\DELL\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\DELL\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\DELL\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\DELL\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\DELL\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\DELL\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\DELL\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\DELL\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\DELL\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\DELL\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\DELL\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\DELL\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\DELL\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\DELL\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\DELL\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\DELL\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire17781576584744705047\surefirebooter-20241030151438794_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire12290453738940755573\surefirebooter-20241030184809013_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -58,34 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testParallel" classname="examples.ExamplesTest" time="6.349">
-    <system-out><![CDATA[15:14:41.818 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-15:14:41.830 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
-15:14:43.613 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
-15:14:43.613 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-15:14:43.613 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-15:14:43.613 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
-15:14:44.198 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-1 > POST https://api.demoblaze.com/login
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 59
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"username":"BettyTorres3050768120","password":"abcd.1234"}
-
-15:14:44.198 [pool-2-thread-3] DEBUG com.intuit.karate - request:
-1 > POST https://api.demoblaze.com/signup
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 59
-1 > Host: api.demoblaze.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
-1 > Accept-Encoding: gzip,deflate
-{"username":"BettyTorres3050768120","password":"abcd.1234"}
-
-15:14:44.198 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="6.239">
+    <system-out><![CDATA[18:48:11.862 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:48:11.872 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+18:48:13.680 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+18:48:13.679 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+18:48:13.679 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+18:48:13.679 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+18:48:14.188 [pool-2-thread-2] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 61
@@ -95,8 +75,28 @@
 1 > Accept-Encoding: gzip,deflate
 {"username":"BettyTorres3050768120","password":"BadPassword"}
 
-15:14:44.198 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+18:48:14.188 [pool-2-thread-3] DEBUG com.intuit.karate - request:
 1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"constantString_416.6946687194021","password":"abcd.1234"}
+
+18:48:14.188 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/signup
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 55
+1 > Host: api.demoblaze.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/23.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"#(usernameRandom)","password":"abcd.1234"}
+
+18:48:14.188 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://api.demoblaze.com/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 59
 1 > Host: api.demoblaze.com
@@ -105,70 +105,68 @@
 1 > Accept-Encoding: gzip,deflate
 {"username":"BettyTorres3050768120","password":"abcd.1234"}
 
-15:14:44.884 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 668
+18:48:14.858 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 663
 1 < 200
 1 < Content-Type: application/json
 1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: d2a906beced4558901487cc88f37670f
-1 < Date: Wed, 30 Oct 2024 19:14:45 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-{"errorMessage":"This user already exist."}
-
-
-15:14:44.884 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 668
-1 < 200
-1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 8545ce06f2f5e645790afc485e33b99e
-1 < Date: Wed, 30 Oct 2024 19:14:45 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-{"errorMessage":"This user already exist."}
-
-
-15:14:44.884 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 668
-1 < 200
-1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 7a5a2b2df229c59c6c2b7438fdce3219
-1 < Date: Wed, 30 Oct 2024 19:14:45 GMT
-1 < Server: Google Frontend
-1 < Cache-Control: private
-1 < Transfer-Encoding: chunked
-"Auth_token: QmV0dHlUb3JyZXMzMDUwNzY4MTIwMTczMDkxNQ=="
-
-
-15:14:44.884 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 668
-1 < 200
-1 < Content-Type: application/json
-1 < Vary: Accept-Encoding
-1 < X-Cloud-Trace-Context: 075ed6e03d2cd16f622c2f6938c84820
-1 < Date: Wed, 30 Oct 2024 19:14:45 GMT
+1 < X-Cloud-Trace-Context: b8e0179b4fc38eca3c61885d596a0a76
+1 < Date: Wed, 30 Oct 2024 22:48:15 GMT
 1 < Server: Google Frontend
 1 < Cache-Control: private
 1 < Transfer-Encoding: chunked
 {"errorMessage":"Wrong password."}
 
 
+18:48:14.858 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: ad6ef175b7d9b766955ea23c1689a22d
+1 < Date: Wed, 30 Oct 2024 22:48:15 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+{"errorMessage":"This user already exist."}
+
+
+18:48:14.875 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < Content-Type: application/json
+1 < Vary: Accept-Encoding
+1 < X-Cloud-Trace-Context: d4172d8d31e1593b03f81b3b6508bafe
+1 < Date: Wed, 30 Oct 2024 22:48:15 GMT
+1 < Server: Google Frontend
+1 < Cache-Control: private
+1 < Transfer-Encoding: chunked
+"Auth_token: QmV0dHlUb3JyZXMzMDUwNzY4MTIwMTczMDkyOA=="
+
+
+18:48:14.893 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 704
+1 < 200
+1 < Content-Type: application/json
+1 < X-Cloud-Trace-Context: c3a1d4e19cd532654ada1b231e4e841b
+1 < Date: Wed, 30 Oct 2024 22:48:15 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 3
+""
+
+
 ---------------------------------------------------------
 feature: classpath:examples/login/login.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 2.4327
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.2562
 ---------------------------------------------------------
 
-15:14:45.841 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:examples/login/login.feature
+18:48:15.817 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:examples/login/login.feature
 ---------------------------------------------------------
 feature: classpath:examples/signup/signup.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 2.4481
+scenarios:  2 | passed:  2 | failed:  0 | time: 2.2708
 ---------------------------------------------------------
 
-15:14:46.020 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/signup/signup.feature
+18:48:16.032 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:examples/signup/signup.feature
 Karate version: 1.5.0
 ======================================================
-elapsed:   5.62 | threads:    5 | thread time: 4.88 
-features:     2 | skipped:    0 | efficiency: 0.17
+elapsed:   5.55 | threads:    5 | thread time: 4.53 
+features:     2 | skipped:    0 | efficiency: 0.16
 scenarios:    4 | passed:     4 | failed: 0
 ======================================================
 

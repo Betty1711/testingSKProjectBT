@@ -10,7 +10,7 @@ Feature:
       """
       {
         "username": "BettyTorres3050768120",
-        "password": "abcd.1234",
+        "password": "abcd.1234"
       }
       """
     Given path 'login'
@@ -23,10 +23,11 @@ Feature:
       """
       {
         "username": "BettyTorres3050768120",
-        "password": "BadPassword",
+        "password": "BadPassword"
       }
       """
     Given path 'login'
     And request user_login_nok
     When method post
     Then status 200
+    And errorMessage:"Wrong password."

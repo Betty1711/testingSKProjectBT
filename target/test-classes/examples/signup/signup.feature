@@ -6,11 +6,14 @@ Feature:
     * url 'https://api.demoblaze.com/'
 
   Scenario:  Crear user que NO existe API signup
+    * def randomNumber = Math.random() * 1000  // Generar un número aleatorio entre 0 y 1000
+    * def randomInt = Math.round(randomNumber) // Redondear al número entero más
+    * def usernameRandom = 'constantString_' + randomNumber  // Concatena el string constante con
     * def create_user_new  =
       """
       {
-        "username": "BettyTorres3050768120",
-        "password": "abcd.1234",
+        "username": "#(usernameRandom)",
+        "password": "abcd.1234"
       }
       """
     Given path 'signup'
@@ -18,13 +21,13 @@ Feature:
     When method post
     Then status 200
 
-  Scenario: Crear user que YA existe API signup
+  Scenario: Crear user que YA existe API signup (recien creado)
     //Asignar el creado para asegurar el request
     * def create_user_exist  =
       """
       {
-        "username": "BettyTorres3050768120",
-        "password": "abcd.1234",
+        "username": "#(usernameRandom)",
+        "password": "abcd.1234"
       }
       """
     Given path 'signup'
