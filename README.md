@@ -1,6 +1,6 @@
 #**FOR programmer automator**
 
-#_ _Pre- requisitos Configuración de entorno_ _	 
+## _ _Pre- requisitos Configuración de entorno_ _	 
  -  Instalar JDK    	jdk-23
  -  Tnstalar maven		Apache-maven-3.9.9 
  -  Install IDE		    IntelliJ IDEA 2024.2.4 (Community Edition) 
