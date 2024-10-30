@@ -17,7 +17,7 @@ https://api.demoblaze.com/login
 
 ## **FOR programmer automator**
 
-### _ _Pre- requisitos para Configuración de entorno_ _	 
+### _ _Pre-requisitos para Configuración de entorno_ _	 
  -  Instalar JDK    	jdk-23
  -  Tnstalar maven		Apache-maven-3.9.9 
  -  Install IDE		    IntelliJ IDEA 2024.2.4 (Community Edition) 
@@ -25,7 +25,7 @@ https://api.demoblaze.com/login
  -  Install Karate		  Con Arqueotipo
       mvn archetype:generate -DarchetypeGroupId=io.karatelabs -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=1.5.0 -DgroupId=com.YourGroup  -DartifactId=YourProject
     
-## **Ejecucion**
+## **Ejecución**
 
 Ejecutar comando "mvn clean test" desde command Promt de IntelliJ
 
