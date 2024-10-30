@@ -1,4 +1,4 @@
-# **Implementa escenarios de prueba para el proyecto [demoblaze]( https://www.demoblaze.com/) 
+# Implementa escenarios de prueba para el proyecto [demoblaze]( https://www.demoblaze.com/) 
 
 ## **scenarios**
 - Crear un nuevo usuario en signup
