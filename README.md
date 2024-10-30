@@ -31,8 +31,12 @@ Ejecutar comando "mvn clean test" desde command Promt de IntelliJ
 
 ![image](https://github.com/user-attachments/assets/48f4de6f-c4ea-4b54-b95e-787c13844c0f)
 
- ## **Analisis de reportes**
-- Ir a la ruta de que genera el log de su equipo e.g. file:///C:/BT_workspace/testingSKProjectBT/target/karate-reports/karate-summary.html y realizar el chequeo de la ejecución de los test.
+ ## **Análisis de reportes**
+- Ir a la ruta de que genera el log de su equipo
+- e.g. file: {youWorkspace}/target/karate-reports/karate-summary.html 
+- Ultimo reporte disponible en este repositorio 
+- Realizar el chequeo de la ejecución de los test.
+- 
 ![image](https://github.com/user-attachments/assets/95b9c85f-e932-492e-927e-7bf9644c2f62)
 
 
@@ -44,3 +48,4 @@ Ejecutar comando "mvn clean test" desde command Promt de IntelliJ
 - Generar empaquetado de .class para ejecución desde compilados.
 - Crear pípeline en git agregar action para hacer el llamado (IC/ID).
 - Definir el control de brach en el versionamiento.
+- Definir proceso de manejo de historico de reportes de resultados.
