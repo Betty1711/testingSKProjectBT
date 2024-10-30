@@ -1,4 +1,4 @@
-**FOR programmer automator **
+**FOR programmer automator**
 
 Pre- requisitos Configuración de entorno	 
   Instalar JDK    	jdk-23
