@@ -43,3 +43,4 @@ Ejecutar comando "mvn clean test" desde command Promt de IntelliJ
 - Pulir gitignore.
 - Generar empaquetado de .class para ejecución desde compilados.
 - Crear pípeline en git agregar action para hacer el llamado (IC/ID).
+- Definir el control de brach en el versionamiento.
